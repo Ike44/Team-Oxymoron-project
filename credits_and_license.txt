@@ -1,0 +1,18 @@
+# Credits 
+
+Team Oxymoron - 
+
+Programmer/Artist: Walter Nguyen
+Designer: Mico Masangkay
+Producer: Issac Amanor
+
+# Licenses
+
+## Art:
+
+blank button by krial licensed CC0: https://opengameart.org/content/blank-button
+
+## Sounds:
+
+8bit menu highlight by Fupi licensed CC0: https://opengameart.org/content/8bit-menu-highlight
+
