@@ -1,6 +1,6 @@
 /// @description Player can move around and interact
 
-if(state == STATES.NORMAL)
+if(state == PLAYER_STATES.NORMAL)
 {
 	var _best_distance = _max_inter_dist
 	_interact = noone;
@@ -17,15 +17,15 @@ if(state == STATES.NORMAL)
 	}
 } // Check to see if interactable object is within player
 
-if keyboard_check(vk_space)
+if keyboard_check_pressed(ord("E"))
 {
-	if (state == STATES.NORMAL_INTERACT)
+	if (state == PLAYER_STATES.NORMAL_INTERACT)
 	{
-		state = STATES.NORMAL
+		state = PLAYER_STATES.NORMAL
 	}
 	else if instance_exists(obj_interaction_parent)
 	{
-		state = STATES.NORMAL_INTERACT
+		state = PLAYER_STATES.NORMAL_INTERACT
 		with (obj_interaction_parent)
 		{
 			alarm[0] = 1;
