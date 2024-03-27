@@ -2,5 +2,5 @@
 
 event_inherited();
 
-room_goto(rm_main_game);
+room_goto(rm_intro_room);
 
