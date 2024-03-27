@@ -61,6 +61,7 @@
     {"id":{"name":"snd_door_open","path":"sounds/snd_door_open/snd_door_open.yy",},},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
     {"id":{"name":"rm_blank_door","path":"rooms/rm_blank_door/rm_blank_door.yy",},},
+    {"id":{"name":"rm_game_over","path":"rooms/rm_game_over/rm_game_over.yy",},},
     {"id":{"name":"obj_button_play","path":"objects/obj_button_play/obj_button_play.yy",},},
     {"id":{"name":"spr_button_menu_unpressed","path":"sprites/spr_button_menu_unpressed/spr_button_menu_unpressed.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
@@ -74,6 +75,7 @@
     {"roomId":{"name":"rm_shoot","path":"rooms/rm_shoot/rm_shoot.yy",},},
     {"roomId":{"name":"rm_rpg","path":"rooms/rm_rpg/rm_rpg.yy",},},
     {"roomId":{"name":"rm_platformer","path":"rooms/rm_platformer/rm_platformer.yy",},},
+    {"roomId":{"name":"rm_game_over","path":"rooms/rm_game_over/rm_game_over.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

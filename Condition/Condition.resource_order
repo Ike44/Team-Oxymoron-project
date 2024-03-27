@@ -37,6 +37,7 @@
     {"name":"obj_button_credits","order":3,"path":"objects/obj_button_credits/obj_button_credits.yy",},
     {"name":"spr_player","order":3,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"snd_door_open","order":1,"path":"sounds/snd_door_open/snd_door_open.yy",},
+    {"name":"rm_game_over","order":1,"path":"rooms/rm_game_over/rm_game_over.yy",},
     {"name":"obj_button_play","order":1,"path":"objects/obj_button_play/obj_button_play.yy",},
   ],
 }
