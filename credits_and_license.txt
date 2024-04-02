@@ -1,0 +1,21 @@
+# Credits 
+
+Team Oxymoron - 
+
+Programmer/Artist: Walter Nguyen
+Designer: Mico Masangkay
+Producer: Issac Amanor
+
+Code was used from finite state machine workshop.
+
+# Licenses
+
+## Art:
+
+blank button by krial licensed CC0: https://opengameart.org/content/blank-button
+
+## Sounds:
+
+8bit menu highlight by Fupi licensed CC0: https://opengameart.org/content/8bit-menu-highlight
+Door Open, Door Close Set by qubodup licensed CC0: https://opengameart.org/content/door-open-door-close-set
+
