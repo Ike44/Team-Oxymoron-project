@@ -17,24 +17,8 @@ if(state == PLAYER_STATES.NORMAL)
 	}
 } // Check to see if interactable object is within player
 
-if keyboard_check_pressed(ord("E"))
-{
-	if (state == PLAYER_STATES.NORMAL_INTERACT)
-	{
-		state = PLAYER_STATES.NORMAL
-	}
-	else if instance_exists(obj_interaction_parent)
-	{
-		state = PLAYER_STATES.NORMAL_INTERACT
-		with (obj_interaction_parent)
-		{
-			alarm[0] = 1;
-		}
-	}
-}
-
-var _input_vect_x = (keyboard_check(vk_right) - keyboard_check(vk_left)),
-	_input_vect_y = (keyboard_check(vk_down) - keyboard_check(vk_up)),
+var _input_vect_x = (keyboard_check(ord("D")) - keyboard_check(ord("A"))),
+	_input_vect_y = (keyboard_check(ord("S")) - keyboard_check(ord("W"))),
 	_actual_speed = _walk_speed,
 	_h_cancel = 1, _v_cancel = 1;
 	
