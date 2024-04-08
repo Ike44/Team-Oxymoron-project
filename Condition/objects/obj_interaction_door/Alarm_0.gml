@@ -12,3 +12,5 @@ else
 	audio_play_sound(snd_door_open,0,false); // Play door open sound
 } // Do I need to explain what the function does?
 
+// Currently since obj_player is persistent, the door will put the player in the same place. Needs to be fixed.
+

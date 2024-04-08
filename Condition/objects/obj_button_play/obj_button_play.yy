@@ -12,8 +12,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"button_text","path":"objects/obj_button_parent/obj_button_parent.yy",},"value":"Play",},
   ],
   "parent": {
-    "name": "obj_buttons",
-    "path": "folders/Objects/obj_buttons.yy",
+    "name": "obj_menu_buttons",
+    "path": "folders/Objects/obj_menu_buttons.yy",
   },
   "parentObjectId": {
     "name": "obj_button_parent",
