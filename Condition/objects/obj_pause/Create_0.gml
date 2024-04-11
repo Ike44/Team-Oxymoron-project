@@ -19,6 +19,9 @@ option[1] = "Check Conditions";
 option[2] = "Quit Game";
 
 option_length = array_length(option);
+// options in the pause menu
+
+
 
 
 
