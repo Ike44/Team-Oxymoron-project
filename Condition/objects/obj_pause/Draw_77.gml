@@ -1,5 +1,6 @@
 /// @description Basic Pause Functionalities
 
+/*
 gpu_set_blendenable(false);
 
 if (pause)
@@ -31,6 +32,7 @@ if (keyboard_check_pressed(vk_escape))
 		if (buffer_exists(pause_surf_buffer)) buffer_delete(pause_surf_buffer);
 		pause_surf_buffer = buffer_create(1920 * 1080 * 4, buffer_fixed, 1);
 		buffer_get_surface(pause_surf_buffer,pause_surf,0);
+		
 	}
 	else
 	{
@@ -47,7 +49,7 @@ gpu_set_blendenable(true);
 // Code taken from Shaun Splading: https://www.youtube.com/watch?v=dNiLIX8jNOM 
 
 
-
+*/
 
 
 

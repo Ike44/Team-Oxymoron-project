@@ -16,6 +16,7 @@
     {"name":"inst_21147C14","path":"rooms/rm_main_hub/rm_main_hub.yy",},
     {"name":"inst_30BF4911","path":"rooms/rm_main_hub/rm_main_hub.yy",},
     {"name":"inst_6D3F8C92","path":"rooms/rm_main_hub/rm_main_hub.yy",},
+    {"name":"inst_42668C3B","path":"rooms/rm_main_hub/rm_main_hub.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -47,6 +48,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6D3F8C92","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_TEST","path":"objects/obj_TEST/obj_TEST.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_TEST","path":"objects/obj_TEST/obj_TEST.yy",},"propertyId":{"name":"text","path":"objects/obj_TEST/obj_TEST.yy",},"value":"RPG Branch (TBI)",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1600.0,"y":320.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_42668C3B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPause","path":"objects/oPause/oPause.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":64.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_temp_background","path":"sprites/spr_temp_background/spr_temp_background.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
