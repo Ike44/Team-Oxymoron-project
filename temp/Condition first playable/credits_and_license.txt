@@ -1,0 +1,27 @@
+# Credits 
+
+Team Oxymoron - 
+
+Programmer/Artist: Walter Nguyen
+Designer: Mico Masangkay
+Producer: Issac Amanor
+
+Code was used from finite state machine workshop.
+Other code was pulled from youtube videos. See:
+https://www.youtube.com/watch?v=xLasKr0ekHY for the basic menu function - Peyton Burnham
+https://www.youtube.com/watch?v=dNiLIX8jNOM for the basic pause function - Shaun Spalding
+
+
+# Licenses
+
+## Art:
+
+blank button by krial licensed CC0: https://opengameart.org/content/blank-button
+
+## Sounds:
+
+8bit menu highlight by Fupi licensed CC0: https://opengameart.org/content/8bit-menu-highlight
+Door Open, Door Close Set by qubodup licensed CC0: https://opengameart.org/content/door-open-door-close-set
+oleaguid font by arynoc licensed CC-BY 3.0: https://opengameart.org/content/oleaguid-font
+
+
