@@ -20,6 +20,8 @@ if (keyboard_check_pressed(vk_escape))
 	{
 		pause = true;
 		audio_play_sound(snd_menu_click,0,false); // added sound
+		draw_set_color(c_black);
+		draw_text(x,y,"HELP ME");
 		
 		instance_deactivate_all(true);
 		
