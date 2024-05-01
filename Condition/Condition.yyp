@@ -83,7 +83,7 @@
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"obj_button_credits","path":"objects/obj_button_credits/obj_button_credits.yy",},},
     {"id":{"name":"spr_dialogue_background","path":"sprites/spr_dialogue_background/spr_dialogue_background.yy",},},
-    {"id":{"name":"fontTitle_font","path":"objects/fontTitle_font/fontTitle_font.yy",},},
+    {"id":{"name":"obj_fontTitle","path":"objects/obj_fontTitle/obj_fontTitle.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"snd_door_open","path":"sounds/snd_door_open/snd_door_open.yy",},},
     {"id":{"name":"obj_letter_B","path":"objects/obj_letter_B/obj_letter_B.yy",},},
