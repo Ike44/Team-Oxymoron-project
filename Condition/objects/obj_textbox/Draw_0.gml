@@ -1,6 +1,6 @@
 /// @description 
 
-accept_key = keyboard_check_pressed(ord("E"));
+accept_key = keyboard_check_pressed(vk_space);
 
 var textbox_x = 0; // Change this
 var textbox_y = 900; // and this
@@ -8,10 +8,7 @@ var textbox_y = 900; // and this
 if (setup == false)
 {
 	setup = true;
-	draw_set_font(fnt_dialogue); //set font
-	draw_set_color(c_black);// set color
-	draw_set_valign(fa_top);
-	draw_set_halign(fa_left);
+	s_dialogue_defualt();
 	
 	// loop through the pages
 	//page_number = array_length(text); redundant
@@ -181,6 +178,7 @@ if(draw_char == text_length[page] && page == page_number -1)
 		}
 		
 		//option text
+		s_dialogue_defualt();
 		draw_text(actual_textbox_x + option_border, actual_textbox_y - option_space*option_number + option_space*option_iteration + 2, option[option_iteration])
 	}
 }
@@ -191,7 +189,12 @@ if(draw_char == text_length[page] && page == page_number -1)
 
 for (var c = 0; c < draw_char; c++)
 {
-	draw_text(char_x[c,page], char_y[c,page],char[c,page]);
+	s_dialogue_defualt();
+	draw_text_color(char_x[c,page], char_y[c,page],char[c,page],_color_1[c,page],_color_2[c,page],_color_3[c,page],_color_4[c,page],1);
+}
+if (draw_char == text_length[page])
+{
+	draw_text_color(actual_textbox_x+800, textbox_y - 40, "Press Space to Continue",c_gray,c_gray,c_gray,c_gray,1);
 }
 ///draw the text
 

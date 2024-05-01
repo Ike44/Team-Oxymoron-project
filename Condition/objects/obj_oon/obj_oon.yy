@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_interaction_parent",
+  "name": "obj_oon",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
@@ -12,7 +12,10 @@
     "name": "obj_interactions",
     "path": "folders/Objects/obj_interactions.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_interaction_parent",
+    "path": "objects/obj_interaction_parent/obj_interaction_parent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,7 +31,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_oon",
+    "path": "sprites/spr_oon/spr_oon.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
