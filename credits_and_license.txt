@@ -9,6 +9,7 @@ Producer: Issac Amanor
 Code was used from finite state machine workshop.
 Other code was pulled from youtube videos. See:
 https://www.youtube.com/watch?v=xLasKr0ekHY for the basic menu function - Peyton Burnham
+https://www.youtube.com/watch?v=rEYSi0ahC5Q for the branching dialogue - Peyton Burnham
 https://www.youtube.com/watch?v=dNiLIX8jNOM for the basic pause function - Shaun Spalding
 
 

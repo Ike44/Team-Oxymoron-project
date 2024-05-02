@@ -19,13 +19,14 @@
     {"name":"inst_30BCC9AF","path":"rooms/rm_puzzle/rm_puzzle.yy",},
     {"name":"inst_75F73CB0","path":"rooms/rm_puzzle/rm_puzzle.yy",},
     {"name":"inst_6C3DFCE6","path":"rooms/rm_puzzle/rm_puzzle.yy",},
-    {"name":"inst_28D36422","path":"rooms/rm_puzzle/rm_puzzle.yy",},
+    {"name":"roomPuzzle_enter1","path":"rooms/rm_puzzle/rm_puzzle.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_48972170","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_interaction_door","path":"objects/obj_interaction_door/obj_interaction_door.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interaction_door","path":"objects/obj_interaction_door/obj_interaction_door.yy",},"propertyId":{"name":"destination","path":"objects/obj_interaction_door/obj_interaction_door.yy",},"value":"rm_main_hub",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interaction_door","path":"objects/obj_interaction_door/obj_interaction_door.yy",},"propertyId":{"name":"targetEntrance","path":"objects/obj_interaction_door/obj_interaction_door.yy",},"value":"roomPuzzle_enter0",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":960.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7339CA40","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_TEST","path":"objects/obj_TEST/obj_TEST.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_TEST","path":"objects/obj_TEST/obj_TEST.yy",},"propertyId":{"name":"text","path":"objects/obj_TEST/obj_TEST.yy",},"value":"THIS IS THE PUZZLE ROOM",},
@@ -50,7 +51,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6C3DFCE6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_TEST","path":"objects/obj_TEST/obj_TEST.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_TEST","path":"objects/obj_TEST/obj_TEST.yy",},"propertyId":{"name":"text","path":"objects/obj_TEST/obj_TEST.yy",},"value":"To get the first point, please enter 'A'",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":832.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_28D36422","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPause","path":"objects/oPause/oPause.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"roomPuzzle_enter1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_destination","path":"objects/obj_destination/obj_destination.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":992.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_temp_background","path":"sprites/spr_temp_background/spr_temp_background.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
