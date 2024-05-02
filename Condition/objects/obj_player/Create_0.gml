@@ -8,6 +8,7 @@ enum PLAYER_STATES
 
 state = PLAYER_STATES.NORMAL; // set the initial player state to normal
 _interact = noone; // see if the player can interact with the object
+targetEntrance = noone;
 
 
 
