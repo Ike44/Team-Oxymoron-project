@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_gameover_background",
-  "bbox_bottom": 765,
+  "bbox_bottom": 767,
   "bbox_left": 0,
   "bbox_right": 1365,
   "bbox_top": 0,
