@@ -3,11 +3,13 @@
 enum PLAYER_STATES
 {
 	NORMAL, // The normal state
-	NORMAL_INTERACT // A normal player state, i.e. when they encounter a door or lever
+	DIALOGUE // When the player is going through dialogue 
 } // current player state
 
 state = PLAYER_STATES.NORMAL; // set the initial player state to normal
 _interact = noone; // see if the player can interact with the object
+targetEntrance = noone;
+
 
 
 
