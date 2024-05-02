@@ -97,6 +97,7 @@
     {"id":{"name":"snd_menu_click","path":"sounds/snd_menu_click/snd_menu_click.yy",},},
     {"id":{"name":"rm_victory_screen","path":"rooms/rm_victory_screen/rm_victory_screen.yy",},},
     {"id":{"name":"rm_platformer","path":"rooms/rm_platformer/rm_platformer.yy",},},
+    {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"obj_button_credits","path":"objects/obj_button_credits/obj_button_credits.yy",},},

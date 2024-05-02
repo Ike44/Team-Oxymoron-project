@@ -71,6 +71,7 @@
     {"name":"sWall","order":15,"path":"sprites/sWall/sWall.yy",},
     {"name":"rm_victory_screen","order":1,"path":"rooms/rm_victory_screen/rm_victory_screen.yy",},
     {"name":"rm_platformer","order":2,"path":"rooms/rm_platformer/rm_platformer.yy",},
+    {"name":"obj_block","order":8,"path":"objects/obj_block/obj_block.yy",},
     {"name":"spr_arrow","order":10,"path":"sprites/spr_arrow/spr_arrow.yy",},
     {"name":"sBackground","order":10,"path":"sprites/sBackground/sBackground.yy",},
     {"name":"obj_button_credits","order":3,"path":"objects/obj_button_credits/obj_button_credits.yy",},
