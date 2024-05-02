@@ -10,8 +10,7 @@ draw_set_valign(fa_right);
 
 draw_text_transformed_colour(x,y,"Time Left:" + string(timer),5,5,0,c_lime,c_lime,c_lime,c_lime,1);
 //Makes the actual timer itself
-draw_text_transformed_colour(x,y+100,"Score: " + string(correct_questions) + "/10",5,5,0,c_black,c_black,c_black,c_black,1);
-//How much score you need to satisfy the condition
+draw_text_transformed_colour(x,y+100,"Score: " + string(score) + "/1",5,5,0,c_black,c_black,c_black,c_black,1);
 
 
 

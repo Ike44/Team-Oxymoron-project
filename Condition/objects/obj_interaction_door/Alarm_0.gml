@@ -7,10 +7,14 @@ if destination == rm_blank_door
 }
 else
 {
-	obj_player.targetEntrance = targetEntrance;
-	obj_player.state = PLAYER_STATES.NORMAL; // Will make the player go to original state after entering
-	audio_play_sound(snd_door_open,0,false); // Play door open sound
-	room_goto(destination); // Goes to destination based on variable
+	create_textbox(text_id);
+	if(can_enter)
+	{
+		obj_player.targetEntrance = targetEntrance;
+		obj_player.state = PLAYER_STATES.NORMAL; // Will make the player go to original state after entering
+		audio_play_sound(snd_door_open,0,false); // Play door open sound
+		room_goto(destination); // Goes to destination based on variable
+	}
 	
 } // Do I need to explain what the function does?
 

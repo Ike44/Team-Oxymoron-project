@@ -19,7 +19,6 @@ function s_game_text(_text_id)
 				//break;
 		/// Sample dialogue
 		case "oon intro":
-			obj_player.state = PLAYER_STATES.DIALOGUE;
 			s_text("So I take it that you have come here, along with many others, to request my magic?", "oon");
 				s_option("Yes", "oon intro - yes");
 				s_option("No", "oon intro - no");
@@ -36,15 +35,25 @@ function s_game_text(_text_id)
 				s_text("........","oon");
 				s_text("I will give you 4 chances in total. You may fufill these in any order and have to at least satisfy 2 of them to win me over. Yada Yada instructions are provided so on and so forth.","oon");
 				s_text("I hope you are entertaining and wish you *sigh* the best of luck.", "oon");
-				obj_player.state = PLAYER_STATES.NORMAL;
+				//obj_player.state = PLAYER_STATES.NORMAL;
 				obj_oon.text_id = "oon idle";
 				break;
 			case "oon intro - no":
 				game_restart(); // restart the game if you select no, meaning you do not want to fufill his conditions.
 				break;
 		case "oon idle":
-			s_text("Well, off you go then. The doors are behind you to go through");
+			s_text("Well, off you go then. The doors are behind you to go through", "oon");
 			break;
+		case "door puzzle":
+			obj_player.hspeed = 0;
+			obj_player.vspeed = 0;
+			s_text("Would you like to go to the Puzzle room?")
+			s_option("Yes", "door enter");
+			s_option("No", "door cancel");
+			break;
+			case "door enter":
+				obj_interaction_door.can_enter = true;
+				break;
 		default:
 			s_text("Huh I don't have any dialogue");
 			break;
