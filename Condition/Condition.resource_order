@@ -49,6 +49,7 @@
     {"name":"spr_D","order":3,"path":"sprites/spr_D/spr_D.yy",},
     {"name":"rm_main_hub","order":1,"path":"rooms/rm_main_hub/rm_main_hub.yy",},
     {"name":"rm_platformer","order":2,"path":"rooms/rm_platformer/rm_platformer.yy",},
+    {"name":"obj_block","order":8,"path":"objects/obj_block/obj_block.yy",},
     {"name":"spr_arrow","order":10,"path":"sprites/spr_arrow/spr_arrow.yy",},
     {"name":"obj_button_credits","order":3,"path":"objects/obj_button_credits/obj_button_credits.yy",},
     {"name":"spr_dialogue_background","order":4,"path":"sprites/spr_dialogue_background/spr_dialogue_background.yy",},
