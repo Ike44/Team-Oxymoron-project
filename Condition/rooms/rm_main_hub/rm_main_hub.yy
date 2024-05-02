@@ -8,46 +8,43 @@
   "inheritLayers": false,
   "instanceCreationOrder": [
     {"name":"room_to_puzzle","path":"rooms/rm_main_hub/rm_main_hub.yy",},
-    {"name":"inst_60AC3905","path":"rooms/rm_main_hub/rm_main_hub.yy",},
     {"name":"door_to_platformer","path":"rooms/rm_main_hub/rm_main_hub.yy",},
     {"name":"door_to_shoot","path":"rooms/rm_main_hub/rm_main_hub.yy",},
-    {"name":"room_to_RPG","path":"rooms/rm_main_hub/rm_main_hub.yy",},
     {"name":"inst_66212E6D","path":"rooms/rm_main_hub/rm_main_hub.yy",},
     {"name":"inst_21147C14","path":"rooms/rm_main_hub/rm_main_hub.yy",},
     {"name":"inst_30BF4911","path":"rooms/rm_main_hub/rm_main_hub.yy",},
-    {"name":"inst_6D3F8C92","path":"rooms/rm_main_hub/rm_main_hub.yy",},
+    {"name":"inst_8BFCF85","path":"rooms/rm_main_hub/rm_main_hub.yy",},
+    {"name":"roomPuzzle_enter0","path":"rooms/rm_main_hub/rm_main_hub.yy",},
+    {"name":"inst_57A07DF2","path":"rooms/rm_main_hub/rm_main_hub.yy",},
+    {"name":"inst_2C8C42D0","path":"rooms/rm_main_hub/rm_main_hub.yy",},
     {"name":"inst_42668C3B","path":"rooms/rm_main_hub/rm_main_hub.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"room_to_puzzle","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_interaction_door","path":"objects/obj_interaction_door/obj_interaction_door.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interaction_door","path":"objects/obj_interaction_door/obj_interaction_door.yy",},"propertyId":{"name":"targetEntrance","path":"objects/obj_interaction_door/obj_interaction_door.yy",},"value":"roomPuzzle_enter1",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interaction_door","path":"objects/obj_interaction_door/obj_interaction_door.yy",},"propertyId":{"name":"destination","path":"objects/obj_interaction_door/obj_interaction_door.yy",},"value":"rm_puzzle",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":160.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_60AC3905","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_TEST","path":"objects/obj_TEST/obj_TEST.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_TEST","path":"objects/obj_TEST/obj_TEST.yy",},"propertyId":{"name":"text","path":"objects/obj_TEST/obj_TEST.yy",},"value":"THIS IS THE MAIN HUB",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":672.0,},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"door_to_platformer","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_interaction_door","path":"objects/obj_interaction_door/obj_interaction_door.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interaction_door","path":"objects/obj_interaction_door/obj_interaction_door.yy",},"propertyId":{"name":"destination","path":"objects/obj_interaction_door/obj_interaction_door.yy",},"value":"rm_platformer",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":160.0,},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"door_to_shoot","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_interaction_door","path":"objects/obj_interaction_door/obj_interaction_door.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interaction_door","path":"objects/obj_interaction_door/obj_interaction_door.yy",},"propertyId":{"name":"destination","path":"objects/obj_interaction_door/obj_interaction_door.yy",},"value":"rm_shoot",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1216.0,"y":160.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"room_to_RPG","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_interaction_door","path":"objects/obj_interaction_door/obj_interaction_door.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interaction_door","path":"objects/obj_interaction_door/obj_interaction_door.yy",},"propertyId":{"name":"destination","path":"objects/obj_interaction_door/obj_interaction_door.yy",},"value":"rm_puzzle",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1664.0,"y":160.0,},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1728.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_66212E6D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_TEST","path":"objects/obj_TEST/obj_TEST.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_TEST","path":"objects/obj_TEST/obj_TEST.yy",},"propertyId":{"name":"text","path":"objects/obj_TEST/obj_TEST.yy",},"value":"Puzzle Branch",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":320.0,},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":480.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_21147C14","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_TEST","path":"objects/obj_TEST/obj_TEST.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_TEST","path":"objects/obj_TEST/obj_TEST.yy",},"propertyId":{"name":"text","path":"objects/obj_TEST/obj_TEST.yy",},"value":"Platformer Branch (TBI)",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":320.0,},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":448.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_30BF4911","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_TEST","path":"objects/obj_TEST/obj_TEST.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_TEST","path":"objects/obj_TEST/obj_TEST.yy",},"propertyId":{"name":"text","path":"objects/obj_TEST/obj_TEST.yy",},"value":"Shoot Branch (TBI)",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1184.0,"y":320.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6D3F8C92","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_TEST","path":"objects/obj_TEST/obj_TEST.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_TEST","path":"objects/obj_TEST/obj_TEST.yy",},"propertyId":{"name":"text","path":"objects/obj_TEST/obj_TEST.yy",},"value":"RPG Branch (TBI)",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1600.0,"y":320.0,},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1568.0,"y":448.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_8BFCF85","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_oon","path":"objects/obj_oon/obj_oon.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":928.0,"y":576.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"roomPuzzle_enter0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_destination","path":"objects/obj_destination/obj_destination.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":256.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_57A07DF2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_destination","path":"objects/obj_destination/obj_destination.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":928.0,"y":256.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2C8C42D0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_destination","path":"objects/obj_destination/obj_destination.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1696.0,"y":256.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_42668C3B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPause","path":"objects/oPause/oPause.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":64.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_temp_background","path":"sprites/spr_temp_background/spr_temp_background.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
