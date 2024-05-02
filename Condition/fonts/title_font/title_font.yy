@@ -4248,8 +4248,8 @@
   "lineHeight": 164,
   "maintainGms1Font": false,
   "parent": {
-    "name": "Fonts",
-    "path": "folders/Fonts.yy",
+    "name": "Condition",
+    "path": "Condition.yyp",
   },
   "pointRounding": 0,
   "ranges": [

@@ -17,7 +17,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"obj_interactions","folderPath":"folders/Objects/obj_interactions.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"obj_interactions","folderPath":"folders/Objects/obj_interactions.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"obj_menu_buttons","folderPath":"folders/Objects/obj_menu_buttons.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy",},
@@ -127,8 +126,8 @@
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_main_hub","path":"rooms/rm_main_hub/rm_main_hub.yy",},},
     {"roomId":{"name":"rm_intro_room","path":"rooms/rm_intro_room/rm_intro_room.yy",},},
