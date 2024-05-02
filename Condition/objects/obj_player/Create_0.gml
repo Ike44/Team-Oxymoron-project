@@ -3,7 +3,8 @@
 enum PLAYER_STATES
 {
 	NORMAL, // The normal state
-	DIALOGUE // When the player is going through dialogue 
+	PLATFORMER, // The platformer state
+	DIALOGUE, // When the player is going through dialogue 
 } // current player state
 
 state = PLAYER_STATES.NORMAL; // set the initial player state to normal
@@ -12,8 +13,10 @@ targetEntrance = noone;
 
 
 
-
-
+//platformer related
+spd = 4;
+xSpeed = 0;
+ySpeed = 0;
 
 
 

@@ -1,5 +1,11 @@
 /// @description Player can move around and interact
 
+//Player state change
+if(room == rm_platformer){
+	state = PLAYER_STATES.PLATFORMER;
+}
+
+
 if(state == PLAYER_STATES.NORMAL)
 {
 	var _best_distance = _max_inter_dist
