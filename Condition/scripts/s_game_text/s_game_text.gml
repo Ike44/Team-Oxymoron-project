@@ -44,16 +44,6 @@ function s_game_text(_text_id)
 		case "oon idle":
 			s_text("Well, off you go then. The doors are behind you to go through", "oon");
 			break;
-		case "door puzzle":
-			obj_player.hspeed = 0;
-			obj_player.vspeed = 0;
-			s_text("Would you like to go to the Puzzle room?")
-			s_option("Yes", "door enter");
-			s_option("No", "door cancel");
-			break;
-			case "door enter":
-				obj_interaction_door.can_enter = true;
-				break;
 		default:
 			s_text("Huh I don't have any dialogue");
 			break;

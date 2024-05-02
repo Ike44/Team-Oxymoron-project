@@ -1,6 +1,5 @@
 /// @description 
 text_id = "";
-can_enter = false;
 
 
 
