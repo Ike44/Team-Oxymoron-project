@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_hut",
-  "bbox_bottom": 335,
+  "bbox_bottom": 337,
   "bbox_left": 41,
   "bbox_right": 333,
   "bbox_top": 49,
