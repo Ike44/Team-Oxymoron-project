@@ -1,14 +1,18 @@
 /// @description Turns on/off the lever
-
-image_index +=1;
-with (designated_object)
+create_textbox(text_id)
+if(confirmSwitch)
 {
-	if(show < 1)
+	image_index +=1;
+	with (designated_object)
 	{
-		show += 1;
+		if(show < 1)
+		{
+			show += 1;
+		}
+		else
+		{
+			show -= 1;
+		} // Toggles between answers
 	}
-	else
-	{
-		show -= 1;
-	} // Toggles between answers
+	confirmSwitch = false;
 }
