@@ -1,5 +1,10 @@
 /// @description Player can move around and interact
 
+//Player state change
+if(room == rm_platformer){
+	state = PLAYER_STATES.PLATFORMER;
+}
+
 
 switch(state)
 {

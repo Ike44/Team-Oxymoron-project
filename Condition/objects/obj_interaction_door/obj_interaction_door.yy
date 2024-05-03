@@ -34,8 +34,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_door",
-    "path": "sprites/spr_door/spr_door.yy",
+    "name": "portal_door_mainhub",
+    "path": "sprites/portal_door_mainhub/portal_door_mainhub.yy",
   },
   "spriteMaskId": null,
   "visible": true,
