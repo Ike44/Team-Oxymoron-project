@@ -70,7 +70,7 @@ switch(state)
 			//else { sprite_index = sPlayerIdle_strip4; }
 
 			if (jump) {
-				ySpeed = -15;
+				ySpeed = -25;
 			}
 		} else {
 			//sprite_index = sPlayerJump;

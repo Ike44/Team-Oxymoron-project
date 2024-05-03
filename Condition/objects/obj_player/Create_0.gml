@@ -8,9 +8,8 @@ enum PLAYER_STATES
 	PLATFORMER, // The platformer state
 	DIALOGUE, // When the player is going through dialogue 
 	PUZZLE, // When the player is in the trivia branch
-	PLATFORMER,
 	HUNT,
-	BOSS
+	BOSS,
 } // current player state
 
 state = PLAYER_STATES.NORMAL; // set the initial player state to normal
@@ -22,7 +21,7 @@ lives = 4;
 
 
 //platformer related
-spd = 4;
+spd = 7;
 xSpeed = 0;
 ySpeed = 0;
 

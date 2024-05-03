@@ -1,0 +1,1 @@
+// @description Basic alarm trigger event
