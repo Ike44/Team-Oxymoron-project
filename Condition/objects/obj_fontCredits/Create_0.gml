@@ -5,6 +5,8 @@ myFont = title_font;
 
 mySecondFont = subHeading_font;
 
+myThirdFont = smallest_font;
+
 
 
 

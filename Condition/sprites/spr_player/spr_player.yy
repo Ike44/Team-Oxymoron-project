@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_player",
-  "bbox_bottom": 95,
-  "bbox_left": 0,
-  "bbox_right": 95,
-  "bbox_top": 0,
+  "bbox_bottom": 146,
+  "bbox_left": 140,
+  "bbox_right": 220,
+  "bbox_top": 60,
   "bboxMode": 2,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "path": "folders/Particle Systems/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

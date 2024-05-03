@@ -21,8 +21,9 @@ draw_set_color(c_black);
 draw_text(585, 600, "Artist");
 draw_text(435, 675, "Mico Masangkay");
 
-
-
+draw_set_font(myThirdFont)
+draw_set_color(c_black);
+draw_text(420, 750, "For more details go to creditstxt and READMEmd");
 
 
 
