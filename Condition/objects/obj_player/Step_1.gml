@@ -5,6 +5,7 @@ switch(state)
 {
 	case (PLAYER_STATES.NORMAL):
 	{
+		alarm[0] = 1;
 		var _best_distance = _max_inter_dist
 		_interact = noone;
 	
@@ -31,7 +32,6 @@ switch(state)
 	}
 	case (PLAYER_STATES.PUZZLE):
 	{
-		if hspeed >= 1 {hspeed = 1};
 		var _best_distance = _max_inter_dist
 		_interact = noone;
 	
@@ -50,8 +50,6 @@ switch(state)
 		break;
 	}
 } // Check to see if interactable object is within player
-
-
 
 /*
 Above code taken directly from the Finite State Machine Workshop

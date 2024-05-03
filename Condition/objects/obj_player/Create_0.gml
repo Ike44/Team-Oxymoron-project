@@ -17,7 +17,7 @@ _interact = noone; // see if the player can interact with the object
 targetEntrance = noone;
 health = 25;
 gravity_direction = 270;
-
+lives = 4;
 
 
 

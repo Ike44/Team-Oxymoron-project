@@ -10,8 +10,7 @@ if(instance_exists(obj_conditions))
 	}
 }
 
-hspeed = 0;
-vspeed = 0;
+
 
 
 
