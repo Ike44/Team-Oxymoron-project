@@ -1,6 +1,6 @@
 /// @description Basic Pause Functionalities
 
-/*
+
 gpu_set_blendenable(false);
 
 if (pause)
@@ -51,7 +51,7 @@ gpu_set_blendenable(true);
 // Code taken from Shaun Splading: https://www.youtube.com/watch?v=dNiLIX8jNOM 
 
 
-*/
+
 
 
 
