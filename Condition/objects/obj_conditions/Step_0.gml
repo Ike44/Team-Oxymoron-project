@@ -15,6 +15,26 @@ switch(room) // Check which room we are in, then see if the condition has been f
 				if(obj_puzzle_controller.correct_questions >= 10)
 				{
 					_condition_game_PUZZLE.isfufilled = true;
+					if(_shut_up != true)
+					{
+						obj_puzzle_controller.do_timer = false;
+						_shut_up = true;
+						create_textbox("Trivia Victory");
+						if(instance_exists(obj_lever))
+						{
+							instance_destroy(obj_lever);
+						}
+						if(instance_exists(obj_README))
+						{
+							instance_destroy(obj_README);
+						}
+						with (instance_create_depth(992,864,0,obj_interaction_door))
+						{
+							destination = rm_main_hub;
+							targetEntrance = roomhub_enter;
+						}
+						_condition_count++;
+					}
 				} // checks if 10 questions were answered correctly
 				break;
 		}
@@ -53,9 +73,20 @@ switch(room) // Check which room we are in, then see if the condition has been f
 				break;
 		}
 		break;
+	case (rm_main_hub):
+	{
+		if(instance_exists(room_to_puzzle))
+		{
+			if(_condition_game_PUZZLE.isfufilled == true)
+			{
+				instance_destroy(room_to_puzzle);
+			}
+		}
+	}
 	default:
 		break;
 }
+
 
 
 

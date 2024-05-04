@@ -5,7 +5,6 @@ depth = -999;
 enum PLAYER_STATES
 {
 	NORMAL, // The normal state
-	PLATFORMER, // The platformer state
 	DIALOGUE, // When the player is going through dialogue 
 	PUZZLE, // When the player is in the trivia branch
 	PLATFORMER,
@@ -21,10 +20,8 @@ gravity_direction = 270;
 lives = 4;
 
 
-//platformer related
-spd = 4;
-xSpeed = 0;
-ySpeed = 0;
+
+
 
 
 

@@ -11,6 +11,8 @@ draw_set_valign(fa_top);
 draw_text_transformed_colour(x,y,"Time Left:" + string(timer),3,3,0,c_lime,c_lime,c_lime,c_lime,1);
 //Makes the actual timer itself
 draw_text_transformed_colour(x,y+70,"Answered correctly: " + string(correct_questions) + "/10",3,3,0,c_gray,c_gray,c_gray,c_gray,1);
+draw_text_transformed_colour(x,y+110,"Previous Answer: " + string(answer),3,3,0,c_purple,c_purple,c_purple,c_purple,1);
+
 //How much score you need to satisfy the condition
 
 draw_set_halign(fa_center);

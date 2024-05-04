@@ -34,7 +34,8 @@ function s_game_text(_text_id)
 				s_text("Allow me to present them.")
 				s_intialize_conditions();
 				s_text("........","oon");
-				s_text("I will give you 4 chances in total. You may fufill these in any order and have to at least satisfy 2 of them to win.","oon");
+				s_text("The third one is a joke.","oon");
+				s_text("I will give you 4 chances in total. You may fufill either one first in order to gain my trust.","oon");
 				s_text("Should you... fail a room I will remove a chance and you are to proceed to the next one. No judgments until the end, of course.", "oon");
 				s_text("Instructions are provided on the books on how the room works.", "oon");
 				s_text("I hope you are entertaining and wish you *sigh* the best of luck.", "oon");
@@ -49,9 +50,9 @@ function s_game_text(_text_id)
 			break;
 		case "room puzzle 1":
 			s_text("How to play: Trivia room");
-			s_text("Simply hit what answer do you think is correct via the designated lever when the question is presented");
+			s_text("Simply hit what answer do you think is correct via the designated button when the question is presented");
 			s_text("Should you get a question wrong, your health will be decreased and reaching a health of 0 will remove a chance.");
-			s_text("Some questions are worth more correct answers than others, but always try to answer to the best of your knowledge.");
+			s_text("Always try to answer to the best of your knowledge.");
 			s_text("There are 20 total questions, but you are to, again, answer only 10 correctly. Questions may be repeated.");
 			s_text("GLHF, Oon.");
 			s_text("Refer back here if needed");
@@ -63,8 +64,8 @@ function s_game_text(_text_id)
 				s_option("No", "Decline Answer");
 			break;
 			case "Puzzle A - Check Answer":
-				canSwitch = true;
 				s_text("Alright let's see it");
+				obj_lever_A.alarm[1] = 1;
 				break;
 		case "Puzzle Answer - B":
 			s_text("Confirm answer?")
@@ -72,8 +73,8 @@ function s_game_text(_text_id)
 				s_option("No", "Decline Answer");
 			break;
 			case "Puzzle B - Check Answer":
-				canSwitch = true;
 				s_text("Alright let's see it");
+				obj_lever_B.alarm[1] = 1;
 				break;
 		case "Puzzle Answer - C":
 			s_text("Confirm answer?")
@@ -81,8 +82,8 @@ function s_game_text(_text_id)
 				s_option("No", "Decline Answer");;
 			break;
 			case "Puzzle C - Check Answer":
-				canSwitch = true;
 			    s_text("Alright let's see it");
+				obj_lever_C.alarm[1] = 1;
 				break;
 		case "Puzzle Answer - D":
 			s_text("Confirm answer?")
@@ -90,11 +91,25 @@ function s_game_text(_text_id)
 				s_option("No", "Decline Answer");
 			break;
 			case "Puzzle D - Check Answer":
-				canSwitch = true;
 				s_text("Alright let's see it");
+				obj_lever_D.alarm[1] = 1;
 				break;
 		case "Decline Answer":
 			s_text("Take your time.");
+			break;
+		case "Trivia Correct":
+			s_text("...");
+			s_text("That is the correct answer! Good job!");
+			break;
+		case "Trivia Incorrect":
+			s_text("...");
+			s_text("That is the incorrect! A shame.");
+			break;
+		case "Trivia Victory":
+			s_text("Congrats. You have completed the trivia condition.");
+			break;
+		case "Talk to oon":
+			s_text("Maybe I should talk to Oon first...");
 			break;
 		default:
 			s_text("Huh I don't have any dialogue");
