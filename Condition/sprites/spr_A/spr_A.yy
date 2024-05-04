@@ -28,7 +28,7 @@
   "origin": 4,
   "parent": {
     "name": "spr_puzzle_branch",
-    "path": "folders/Particle Systems/Sprites/spr_puzzle_branch.yy",
+    "path": "folders/Sprites/spr_puzzle_branch.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

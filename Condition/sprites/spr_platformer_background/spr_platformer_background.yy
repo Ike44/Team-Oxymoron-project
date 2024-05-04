@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_platformer_background",
-  "bbox_bottom": 1079,
+  "bbox_bottom": 2159,
   "bbox_left": 0,
-  "bbox_right": 1919,
+  "bbox_right": 3839,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 1080,
+  "height": 2160,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0e83dc5c-a4e8-4d0b-a96b-fc134d65785a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "Sprites",
-    "path": "folders/Particle Systems/Sprites.yy",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -59,8 +59,8 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 960,
-    "yorigin": 540,
+    "xorigin": 1920,
+    "yorigin": 1080,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1920,
+  "width": 3840,
 }

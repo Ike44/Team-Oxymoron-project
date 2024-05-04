@@ -34,7 +34,7 @@
   "origin": 4,
   "parent": {
     "name": "oonBoss_animation",
-    "path": "folders/Particle Systems/Sprites/oonBoss_animation.yy",
+    "path": "folders/Sprites/oonBoss_animation.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

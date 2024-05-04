@@ -1,0 +1,1 @@
+sprite_index = game_over_door_art;

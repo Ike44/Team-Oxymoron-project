@@ -43,7 +43,7 @@
   "origin": 0,
   "parent": {
     "name": "mark_animations",
-    "path": "folders/Particle Systems/Sprites/mark_animations.yy",
+    "path": "folders/Sprites/mark_animations.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
