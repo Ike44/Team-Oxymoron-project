@@ -74,6 +74,7 @@
     {"id":{"name":"obj_puzzle_controller","path":"objects/obj_puzzle_controller/obj_puzzle_controller.yy",},},
     {"id":{"name":"spr_lever","path":"sprites/spr_lever/spr_lever.yy",},},
     {"id":{"name":"obj_letter_C","path":"objects/obj_letter_C/obj_letter_C.yy",},},
+    {"id":{"name":"obj_button_instructions","path":"objects/obj_button_instructions/obj_button_instructions.yy",},},
     {"id":{"name":"spr_readME","path":"sprites/spr_readME/spr_readME.yy",},},
     {"id":{"name":"spr_button_menu_pressed","path":"sprites/spr_button_menu_pressed/spr_button_menu_pressed.yy",},},
     {"id":{"name":"spr_D","path":"sprites/spr_D/spr_D.yy",},},

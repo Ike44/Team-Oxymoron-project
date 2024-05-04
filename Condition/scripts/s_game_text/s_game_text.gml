@@ -111,6 +111,12 @@ function s_game_text(_text_id)
 		case "Talk to oon":
 			s_text("Maybe I should talk to Oon first...");
 			break;
+		case "Instructions":
+			s_text("Press space to advance dialogue");
+			s_text("When in the main or introduction room, use WASD to move around");
+			s_text("While in a condition room, A and D are the same but W is used to jump.");
+			s_text("Win the game by completing the conditions as provided");
+			break;
 		default:
 			s_text("Huh I don't have any dialogue");
 			break;
