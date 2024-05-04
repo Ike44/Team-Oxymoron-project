@@ -40,6 +40,7 @@ function s_text_color(_start, _end, _parameter_color_1,_parameter_color_2,_param
 
 /// @param text
 /// @param [character]
+/// @param flag for dialogue is complete
 function s_text(_text)
 {
 	s_set_defaults_for_text(); // initialize based from script
