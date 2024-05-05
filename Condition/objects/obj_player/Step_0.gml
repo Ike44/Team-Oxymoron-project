@@ -4,7 +4,7 @@ switch(room)
 {
 	case (rm_puzzle):
 	{
-		_jump_height = -8;
+		_jump_height = -4;
 		state = PLAYER_STATES.PUZZLE;
 		if (hspeed < 0)
 		{
@@ -47,6 +47,64 @@ switch(room)
 		
 		break;
 	}
+	case (rm_platformer):
+	{
+		_jump_height = -14;
+		_walk_speed = 12;
+		state = PLAYER_STATES.PLATFORMER;
+		if (hspeed < 0)
+		{
+			hspeed = 0;
+		}
+		else
+		{
+			hspeed = 0;
+		}
+		
+		if !instance_exists(obj_textbox)
+		{
+			if (keyboard_check(ord("A")) and !instance_place(x-_walk_speed+2,y,obj_block)) {
+				x += -(_walk_speed);
+			} // move left
+
+			if (keyboard_check(ord("D")) and !instance_place(x+_walk_speed-2,y,obj_block)) {
+				x += _walk_speed;
+			}
+			if(keyboard_check_pressed(ord("W")))
+			{
+				if(instance_place(x,y+1,obj_block))
+				{
+					vspeed = _jump_height;
+				}
+			}// STOP MOVING WHEN THE DIALOGUE IS ON THE SCREEN AAAAAAAAAAAAAAAA
+			if(keyboard_check_pressed(ord("F")))
+			{
+				save_x = x;
+				save_y = y;
+			}
+			if(keyboard_check_pressed(ord("R")))
+			{
+				obj_player.x = save_x;
+				obj_player.y = save_y;
+			}
+		}
+		
+		
+		
+		if (instance_place(x,y+1, obj_block))
+		{
+			gravity = 0;
+		}
+		else
+		{
+			gravity = 0.30;
+		}
+		if(keyboard_check_pressed(ord("S")))
+		{
+			gravity = 20.0;
+		}
+		break;
+	}
 	default:
 	{
 		state = PLAYER_STATES.NORMAL;
@@ -59,7 +117,7 @@ if(instance_exists(obj_textbox))
 	state = PLAYER_STATES.DIALOGUE;
 }
 
-if(health = 0 && lives > 1)
+if(health <= 0 && lives > 0)
 {
 	switch(room)
 	{
@@ -82,6 +140,15 @@ if(lives == 0)
 {
 	room_goto(rm_game_over);
 	instance_destroy();
+}
+
+if(keyboard_check_pressed(vk_home))
+{
+	create_textbox("skip intro");
+}
+if(keyboard_check_pressed(vk_end))
+{
+	health--;
 }
 
 x = clamp(x, sprite_width/2 + 20, room_width-sprite_width/2 + 20); // x-axis - left and right

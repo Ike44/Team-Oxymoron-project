@@ -18,6 +18,8 @@ targetEntrance = noone;
 health = 25;
 gravity_direction = 270;
 lives = 4;
+save_x = 0;
+save_y = 0;
 
 
 

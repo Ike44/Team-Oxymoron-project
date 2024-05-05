@@ -4,6 +4,7 @@ _condition_count = 0; // How many Conditions have been fufilled?
 _collect = 0;
 _kill = 0;
 _shut_up = false;
+_shut_up_2 = false;
 
 _condition_game_PUZZLE =
 {

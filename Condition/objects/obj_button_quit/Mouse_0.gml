@@ -1,6 +1,8 @@
 /// @description play the game!
 
 event_inherited();
-
-game_end();
+if(!instance_exists(obj_textbox))
+{
+	game_end();
+}
 

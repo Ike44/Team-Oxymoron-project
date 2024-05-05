@@ -45,9 +45,29 @@ switch(state)
 				other._interact = id;
 			}
 		}
-		
-		
 		break;
+	}
+	case (PLAYER_STATES.PLATFORMER):
+	{
+		var _best_distance = _max_inter_dist
+		_interact = noone;
+	
+		with obj_interaction_parent
+		{
+			var _this_distance = point_distance(x,y,other.x,other.y);
+		
+			if _this_distance < _best_distance
+			{
+				_best_distance = _this_distance;
+				other._interact = id;
+			}
+		}
+		break;
+	}
+	case (PLAYER_STATES.DIALOGUE):
+	{
+		hspeed = 0;
+		vspeed = 0;
 	}
 } // Check to see if interactable object is within player
 

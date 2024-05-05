@@ -59,6 +59,10 @@ if(keyboard_check_pressed(vk_left))
 	correct_answer = questions[current_question_index].correct_answer;
 	global.current_question_information = current_question_index;
 }
+if(keyboard_check_pressed(vk_up))
+{
+	timer = 5;
+}
 
 if( keyboard_check_pressed(vk_delete))
 {

@@ -37,9 +37,13 @@ function s_game_text(_text_id)
 				s_text("The third one is a joke.","oon");
 				s_text("I will give you 4 chances in total. You may fufill either one first in order to gain my trust.","oon");
 				s_text("Should you... fail a room I will remove a chance and you are to proceed to the next one. No judgments until the end, of course.", "oon");
-				s_text("Instructions are provided on the books on how the room works.", "oon");
+				s_text("Instructions are provided on the books on how the room works. You are limited by time.", "oon");
 				s_text("I hope you are entertaining and wish you *sigh* the best of luck.", "oon");
 				//obj_player.state = PLAYER_STATES.NORMAL;
+				obj_oon.text_id = "oon idle";
+				break;
+			case "skip intro":
+				s_intialize_conditions();
 				obj_oon.text_id = "oon idle";
 				break;
 			case "oon intro - no":
@@ -53,10 +57,23 @@ function s_game_text(_text_id)
 			s_text("Simply hit what answer do you think is correct via the designated button when the question is presented");
 			s_text("Should you get a question wrong, your health will be decreased and reaching a health of 0 will remove a chance.");
 			s_text("Always try to answer to the best of your knowledge.");
-			s_text("There are 20 total questions, but you are to, again, answer only 10 correctly. Questions may be repeated.");
+			s_text("There are 20 total questions to pull from, but you are to, again, answer only 10 correctly. Questions may be repeated.");
 			s_text("GLHF, Oon.");
 			s_text("Refer back here if needed");
 			s_text("The first correct answer to the question is A");
+			break;
+		case "room platformer 1":
+			s_text("How to play: Platformer room");
+			s_text("Move around the platforms and grab the coins in 1 of 4 locations");
+			s_text("You have a couple of extra moves...");
+			s_text("By using the \"S\" key to quickly get down.");
+			s_text("By using the \"F\" key you will save a location on the map and use \"R\" to teleport to that location. Note this does not work if you are performing a slam");
+			s_text("Upon grabbing the first coin, you will teleport back to the spawnpoint to go again, however spirts will start to be present");
+			s_text("Spirits will only deal 5 HP but will roam around areas and pursue you. Don't bother defending yourself.");
+			s_text("...");
+			s_text("I lied, they do 20 HP har har.");
+			s_text("GLHF, Oon.");
+			s_text("Refer back here if needed");
 			break;
 		case "Puzzle Answer - A":
 			s_text("Confirm answer?")
@@ -106,7 +123,12 @@ function s_game_text(_text_id)
 			s_text("That is the incorrect! A shame.");
 			break;
 		case "Trivia Victory":
+			s_text("...");
 			s_text("Congrats. You have completed the trivia condition.");
+			break;
+		case "Platformer Victory":
+			s_text("...");
+			s_text("Congrats. You have completed the dungeon condition.");
 			break;
 		case "Talk to oon":
 			s_text("Maybe I should talk to Oon first...");
@@ -114,6 +136,7 @@ function s_game_text(_text_id)
 		case "Instructions":
 			s_text("Press space to advance dialogue");
 			s_text("When in the main or introduction room, use WASD to move around");
+			s_text("Press E when you need to interact with something");
 			s_text("While in a condition room, A and D are the same but W is used to jump.");
 			s_text("Win the game by completing the conditions as provided");
 			break;

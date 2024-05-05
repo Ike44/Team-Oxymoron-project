@@ -2,8 +2,8 @@
 
 accept_key = keyboard_check_pressed(vk_space);
 
-var textbox_x = 0; // Change this
-var textbox_y = 900; // and this
+var textbox_x = camera_get_view_x(view_camera[0]); // Change this
+var textbox_y =	camera_get_view_y(view_camera[0]) + 900; // and this
 
 if (setup == false)
 {

@@ -1,6 +1,8 @@
-/// @description play the game!
+/// @description Read the instructions
 
 event_inherited();
-
-create_textbox("Instructions");
+if(!instance_exists(obj_textbox))
+{
+	create_textbox("Instructions");
+}
 

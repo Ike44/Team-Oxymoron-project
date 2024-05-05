@@ -6,7 +6,7 @@ Programmer/Artist: Walter Nguyen
 Designer: Mico Masangkay
 Producer: Issac Amanor
 
-Code was used from finite state machine workshop.
+Code was used from finite state machine workshop and platformer workshop
 Other code was pulled from youtube videos. See:
 https://www.youtube.com/watch?v=xLasKr0ekHY for the basic menu function - Peyton Burnham
 https://www.youtube.com/watch?v=rEYSi0ahC5Q for the branching dialogue - Peyton Burnham
@@ -18,6 +18,8 @@ https://www.youtube.com/watch?v=dNiLIX8jNOM for the basic pause function - Shaun
 ## Art:
 
 blank button by krial licensed CC0: https://opengameart.org/content/blank-button
+coin by kotnaszynce licensed CC0: https://opengameart.org/content/coin-2
+level up, power up, coin get by wobbleboxx licensed CC0: https://opengameart.org/content/level-up-power-up-coin-get-13-sounds
 
 ## Sounds:
 
