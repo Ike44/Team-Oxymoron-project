@@ -4,6 +4,6 @@ event_inherited();
 
 if(!instance_exists(obj_textbox))
 {
-	//room_goto(rm_credits);
+	room_goto(rm_credits);
 }
 

@@ -11,6 +11,11 @@
     {"name":"inst_19C3D801","path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"inst_5D31F3C9","path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"inst_217F5426","path":"rooms/rm_menu/rm_menu.yy",},
+    {"name":"inst_5C999A81","path":"rooms/rm_menu/rm_menu.yy",},
+    {"name":"inst_138C6FB2","path":"rooms/rm_menu/rm_menu.yy",},
+    {"name":"inst_3A294B06","path":"rooms/rm_menu/rm_menu.yy",},
+    {"name":"inst_366E932B","path":"rooms/rm_menu/rm_menu.yy",},
+    {"name":"inst_30DC3F8D","path":"rooms/rm_menu/rm_menu.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -21,8 +26,13 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_217F5426","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button_instructions","path":"objects/obj_button_instructions/obj_button_instructions.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"button_text","path":"objects/obj_button_parent/obj_button_parent.yy",},"value":"Instructions",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":928.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5C999A81","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_menu_doorart","path":"objects/obj_menu_doorart/obj_menu_doorart.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":550.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_138C6FB2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_menu_doorart","path":"objects/obj_menu_doorart/obj_menu_doorart.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1600.0,"y":550.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3A294B06","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_menu_doorart","path":"objects/obj_menu_doorart/obj_menu_doorart.yy",},"properties":[],"rotation":0.0,"scaleX":1.5,"scaleY":1.32,"x":970.0,"y":475.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_366E932B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_torch","path":"objects/obj_torch/obj_torch.yy",},"properties":[],"rotation":44.464935,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":550.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_30DC3F8D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_torch","path":"objects/obj_torch/obj_torch.yy",},"properties":[],"rotation":44.464935,"scaleX":1.0,"scaleY":1.0,"x":1255.0,"y":550.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_temp_background","path":"sprites/spr_temp_background/spr_temp_background.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_mainscreen_background","path":"sprites/spr_mainscreen_background/spr_mainscreen_background.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
     "name": "Rooms",
