@@ -57,7 +57,7 @@ function s_text(_text)
 				speaker_side[page_number] = 1; // change side of where they are talking
 			break;
 			case "mark":
-				speaker_sprite[page_number] = spr_player;
+				speaker_sprite[page_number] = spr_player_idle;
 				break;
 			case "oon":
 				speaker_sprite[page_number] = spr_oon;

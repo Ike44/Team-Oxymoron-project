@@ -1,29 +1,22 @@
 /// @description See more for details
 
+
+
 switch(room)
 {
 	case (rm_puzzle):
 	{
 		_jump_height = -4;
 		state = PLAYER_STATES.PUZZLE;
-		if (hspeed < 0)
-		{
-			hspeed = 0;
-		}
-		else
-		{
-			hspeed = 0;
-		}
+		hspeed = clamp(hspeed, -8,8);
 		
 		if !instance_exists(obj_textbox)
 		{
-			if (keyboard_check(ord("A")) and !instance_place(x-_walk_speed+2,y,obj_block)) {
-				x += -(_walk_speed);
-			} // move left
-
-			if (keyboard_check(ord("D")) and !instance_place(x+_walk_speed-2,y,obj_block)) {
-				x += _walk_speed;
-			}
+			var _input_vect_x = (keyboard_check(ord("D")) - keyboard_check(ord("A"))),
+			_actual_speed = _walk_speed,
+			_h_cancel = 1;
+	
+			hspeed = _input_vect_x * _actual_speed * _h_cancel; 
 			if(keyboard_check(ord("W")))
 			{
 				if(instance_place(x,y+1,obj_block))
@@ -108,6 +101,7 @@ switch(room)
 	default:
 	{
 		state = PLAYER_STATES.NORMAL;
+		gravity = 0;
 		break;
 	}
 }
@@ -123,12 +117,14 @@ if(health <= 0 && lives > 0)
 	{
 		case rm_puzzle:
 		{
+			audio_play_sound(snd_lose_life,1,false);
 			health = 2;
 			lives--;
 			break;
 		}
 		default:
 		{
+			audio_play_sound(snd_lose_life,1,false);
 			health = 25;
 			lives--;
 			break;
@@ -150,9 +146,14 @@ if(keyboard_check_pressed(vk_end))
 {
 	health--;
 }
+if(keyboard_check_pressed(ord("O")))
+{
+	lives--;
+}
 
-x = clamp(x, sprite_width/2 + 20, room_width-sprite_width/2 + 20); // x-axis - left and right
-y = clamp(y, sprite_height/2- 20, room_height-sprite_height/2 - 20) // y-axis - top and bottom
+
+x = clamp(x, 96/2 + 20, room_width-sprite_width/2 + 20); // x-axis - left and right
+y = clamp(y, 96/2- 20, room_height-sprite_height/2 - 20) // y-axis - top and bottom
 //switch(state)
 //{
 //	case (PLAYER_STATES.NORMAL): //When they are in the hub

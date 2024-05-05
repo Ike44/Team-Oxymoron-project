@@ -40,11 +40,18 @@ function s_game_text(_text_id)
 				s_text("Instructions are provided on the books on how the room works. You are limited by time.", "oon");
 				s_text("I hope you are entertaining and wish you *sigh* the best of luck.", "oon");
 				//obj_player.state = PLAYER_STATES.NORMAL;
-				obj_oon.text_id = "oon idle";
+				obj_conditions.talked_to_oon = true;
+				if(instance_exists(obj_oon))
+				{
+					obj_oon.text_id = "oon idle";
+				}
 				break;
 			case "skip intro":
 				s_intialize_conditions();
-				obj_oon.text_id = "oon idle";
+				if(instance_exists(obj_oon))
+				{
+					obj_oon.text_id = "oon idle";
+				}
 				break;
 			case "oon intro - no":
 				game_restart(); // restart the game if you select no, meaning you do not want to fufill his conditions.
@@ -132,6 +139,11 @@ function s_game_text(_text_id)
 			break;
 		case "Talk to oon":
 			s_text("Maybe I should talk to Oon first...");
+			break;
+		case "Oon Complete":
+			s_text("So you did it.", "oon");
+			s_text("Maybe it was my own downfall since everyone else before you clearly couldn't bother to put an effort into it.", "oon");
+			s_text("Well, off you go. Your friend is waitng for you. Maybe there is value in life instead of such boredom.", "oon");
 			break;
 		case "Instructions":
 			s_text("Press space to advance dialogue");

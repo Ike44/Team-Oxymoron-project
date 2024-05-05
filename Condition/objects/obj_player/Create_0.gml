@@ -12,6 +12,13 @@ enum PLAYER_STATES
 	BOSS
 } // current player state
 
+enum PLAYER_ANIMATION_STATES
+{
+	IDLE,
+	RUNNING,
+	JUMPING
+}
+
 state = PLAYER_STATES.NORMAL; // set the initial player state to normal
 _interact = noone; // see if the player can interact with the object
 targetEntrance = noone;

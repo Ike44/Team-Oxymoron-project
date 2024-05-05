@@ -68,7 +68,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7521D89A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_README","path":"objects/obj_README/obj_README.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_README","path":"objects/obj_README/obj_README.yy",},"propertyId":{"name":"room_instruction","path":"objects/obj_README/obj_README.yy",},"value":"room platformer 1",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":482.0,"y":4048.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"roomPlatformer_enter1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_destination","path":"objects/obj_destination/obj_destination.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":229.0,"y":4032.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"roomPlatformer_enter1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_destination","path":"objects/obj_destination/obj_destination.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":3744.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_33C67FD8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"properties":[],"rotation":0.0,"scaleX":180.00002,"scaleY":5.5,"x":2880.0002,"y":4232.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6BAEC256","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"properties":[],"rotation":0.0,"scaleX":146.98047,"scaleY":2.0,"x":3327.6875,"y":4112.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_FF3F7D6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"properties":[],"rotation":0.0,"scaleX":2.5,"scaleY":129.5,"x":5720.0,"y":2072.0,},
@@ -153,7 +153,7 @@
   "viewSettings": {
     "clearDisplayBuffer": true,
     "clearViewBackground": false,
-    "enableViews": false,
+    "enableViews": true,
     "inheritViewSettings": false,
   },
   "volume": 1.0,

@@ -1,5 +1,11 @@
 /// @description 
 
+if(keyboard_check_pressed(ord("P")))
+{
+	_condition_count++;
+}
+
+
 switch(room) // Check which room we are in, then see if the condition has been fufilled when the game ends
 {
 	case (rm_puzzle):
@@ -9,6 +15,7 @@ switch(room) // Check which room we are in, then see if the condition has been f
 				_condition_game_PUZZLE.isfufilled = true;
 				if(_shut_up != true)
 				{
+					audio_play_sound(snd_condition_fufilled,1,false);
 					obj_puzzle_controller.do_timer = false;
 					_shut_up = true;
 					create_textbox("Trivia Victory");
@@ -37,6 +44,7 @@ switch(room) // Check which room we are in, then see if the condition has been f
 				_condition_game_PLATFORMER.isfufilled = true;
 				if(_shut_up_2 != true)
 				{
+					audio_play_sound(snd_condition_fufilled,1,false);
 					obj_platformer_controller.do_timer = false;
 					obj_platformer_controller.active_platformer = false;
 					_shut_up_2 = true;
@@ -88,6 +96,41 @@ switch(room) // Check which room we are in, then see if the condition has been f
 				instance_destroy(room_to_platformer);
 			}
 		}
+		if(instance_exists(obj_oon) && _condition_count < 2)
+			{
+				obj_oon.text_id = "oon idle";
+			}
+		if(_condition_count >= 2 && _game_finished = false)
+		{
+			_game_finished = true;
+			if(instance_exists(obj_oon))
+			{
+				obj_oon.text_id = "Oon Complete";
+			}
+			with(instance_create_depth(960,128,0,obj_interaction_door))
+			{
+				destination = rm_victory_screen;
+			}
+		}
+		break;
+	}
+	case(rm_game_over):
+	{
+		if(instance_exists(obj_player))
+		{
+			instance_destroy(obj_player);
+		}
+		instance_destroy();
+		break;
+	}
+	case(rm_victory_screen):
+	{
+		if(instance_exists(obj_player))
+		{
+			instance_destroy(obj_player);
+		}
+		instance_destroy();
+		break;
 	}
 	default:
 		break;
