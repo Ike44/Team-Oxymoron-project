@@ -9,6 +9,7 @@ _shut_up = false;
 _shut_up_2 = false;
 _game_finished = false;
 obj_conditions.talked_to_oon = false;
+audio_play_sound(snd_music,1,true);
 
 _condition_game_PUZZLE =
 {

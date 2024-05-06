@@ -99,6 +99,7 @@
     {"name":"s_game_text","order":6,"path":"scripts/s_game_text/s_game_text.yy",},
     {"name":"obj_TEST","order":4,"path":"objects/obj_TEST/obj_TEST.yy",},
     {"name":"obj_button_main_menu","order":6,"path":"objects/obj_button_main_menu/obj_button_main_menu.yy",},
+    {"name":"snd_music","order":8,"path":"sounds/snd_music/snd_music.yy",},
     {"name":"obj_textbox","order":3,"path":"objects/obj_textbox/obj_textbox.yy",},
     {"name":"obj_coin","order":10,"path":"objects/obj_coin/obj_coin.yy",},
     {"name":"spr_B","order":1,"path":"sprites/spr_B/spr_B.yy",},

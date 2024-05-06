@@ -128,6 +128,7 @@
     {"id":{"name":"s_game_text","path":"scripts/s_game_text/s_game_text.yy",},},
     {"id":{"name":"obj_TEST","path":"objects/obj_TEST/obj_TEST.yy",},},
     {"id":{"name":"obj_button_main_menu","path":"objects/obj_button_main_menu/obj_button_main_menu.yy",},},
+    {"id":{"name":"snd_music","path":"sounds/snd_music/snd_music.yy",},},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
     {"id":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},},
     {"id":{"name":"rm_blank_door","path":"rooms/rm_blank_door/rm_blank_door.yy",},},

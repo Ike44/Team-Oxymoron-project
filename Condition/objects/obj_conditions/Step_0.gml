@@ -96,7 +96,7 @@ switch(room) // Check which room we are in, then see if the condition has been f
 				instance_destroy(room_to_platformer);
 			}
 		}
-		if(instance_exists(obj_oon) && _condition_count < 2)
+		if(instance_exists(obj_oon) && _condition_count < 2 && talked_to_oon == true)
 			{
 				obj_oon.text_id = "oon idle";
 			}
