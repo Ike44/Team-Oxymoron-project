@@ -1,4 +1,4 @@
-# Team-Oxymoron-project
+# Condition
 
 ### Team Members:
 * Artist - Mico Masangkay
@@ -18,3 +18,6 @@ up key to make the timer go to 5
 delete key to increment the correct questions
 IN THE PLATFORMER ROOM
 Up key to increase score
+
+### Game Trailer:
+https://drive.google.com/file/d/1vWcndcU_PnpHL_OHVQyrTEsxmB8sb1Ih/view 
