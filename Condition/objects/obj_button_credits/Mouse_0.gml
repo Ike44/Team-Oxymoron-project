@@ -2,5 +2,8 @@
 
 event_inherited();
 
-// INSERT CODE HERE FOR THE CREDITS DUMMY BAKABAKABAKA
+if(!instance_exists(obj_textbox))
+{
+	room_goto(rm_credits);
+}
 

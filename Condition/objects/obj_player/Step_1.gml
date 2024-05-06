@@ -1,38 +1,75 @@
 /// @description Player can move around and interact
 
-//Player state change
-if(room == rm_platformer){
-	state = PLAYER_STATES.PLATFORMER;
-}
 
-
-if(state == PLAYER_STATES.NORMAL)
+switch(state)
 {
-	var _best_distance = _max_inter_dist
-	_interact = noone;
-	
-	with obj_interaction_parent
+	case (PLAYER_STATES.NORMAL):
 	{
-		var _this_distance = point_distance(x,y,other.x,other.y);
-		
-		if _this_distance < _best_distance
+		alarm[0] = 1;
+		var _best_distance = _max_inter_dist
+		_interact = noone;
+	
+		with obj_interaction_parent
 		{
-			_best_distance = _this_distance;
-			other._interact = id;
+			var _this_distance = point_distance(x,y,other.x,other.y);
+		
+			if _this_distance < _best_distance
+			{
+				_best_distance = _this_distance;
+				other._interact = id;
+			}
 		}
+	
+		var _input_vect_x = (keyboard_check(ord("D")) - keyboard_check(ord("A"))),
+		_input_vect_y = (keyboard_check(ord("S")) - keyboard_check(ord("W"))),
+		_actual_speed = _walk_speed,
+		_h_cancel = 1, _v_cancel = 1;
+	
+		hspeed = _input_vect_x * _actual_speed * _h_cancel; 
+
+		vspeed = _input_vect_y * _actual_speed * _v_cancel;
+		break;
 	}
+	case (PLAYER_STATES.PUZZLE):
+	{
+		var _best_distance = _max_inter_dist
+		_interact = noone;
 	
-	var _input_vect_x = (keyboard_check(ord("D")) - keyboard_check(ord("A"))),
-	_input_vect_y = (keyboard_check(ord("S")) - keyboard_check(ord("W"))),
-	_actual_speed = _walk_speed,
-	_h_cancel = 1, _v_cancel = 1;
+		with obj_interaction_parent
+		{
+			var _this_distance = point_distance(x,y,other.x,other.y);
+		
+			if _this_distance < _best_distance
+			{
+				_best_distance = _this_distance;
+				other._interact = id;
+			}
+		}
+		break;
+	}
+	case (PLAYER_STATES.PLATFORMER):
+	{
+		var _best_distance = _max_inter_dist
+		_interact = noone;
 	
-	hspeed = _input_vect_x * _actual_speed * _h_cancel; 
-
-	vspeed = _input_vect_y * _actual_speed * _v_cancel;
+		with obj_interaction_parent
+		{
+			var _this_distance = point_distance(x,y,other.x,other.y);
+		
+			if _this_distance < _best_distance
+			{
+				_best_distance = _this_distance;
+				other._interact = id;
+			}
+		}
+		break;
+	}
+	case (PLAYER_STATES.DIALOGUE):
+	{
+		hspeed = 0;
+		vspeed = 0;
+	}
 } // Check to see if interactable object is within player
-
-
 
 /*
 Above code taken directly from the Finite State Machine Workshop

@@ -119,8 +119,8 @@
   "lineHeight": 44,
   "maintainGms1Font": false,
   "parent": {
-    "name": "Dialogue System",
-    "path": "folders/Dialogue System.yy",
+    "name": "Fonts",
+    "path": "folders/Fonts.yy",
   },
   "pointRounding": 0,
   "ranges": [

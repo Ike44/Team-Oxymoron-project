@@ -19,6 +19,8 @@ if(accept_key)
 		case 1:
 			game_end();
 			break;
+		case 2:
+			break;
 		default:
 			break;
 	}
